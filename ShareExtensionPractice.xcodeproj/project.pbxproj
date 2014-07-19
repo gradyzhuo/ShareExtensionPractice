@@ -39,6 +39,13 @@
 			remoteGlobalIDString = 7965FC05197AE1FA0038F0D5;
 			remoteInfo = JustShare;
 		};
+		796BAB95197AECF3007C4C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7965FBD8197AE19A0038F0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7965FBDF197AE19A0038F0D5;
+			remoteInfo = ShareExtensionPractice;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -206,6 +213,7 @@
 			);
 			dependencies = (
 				7965FBF4197AE19A0038F0D5 /* PBXTargetDependency */,
+				796BAB96197AECF3007C4C39 /* PBXTargetDependency */,
 			);
 			name = ShareExtensionPracticeTests;
 			productName = ShareExtensionPracticeTests;
@@ -340,6 +348,11 @@
 			isa = PBXTargetDependency;
 			target = 7965FC05197AE1FA0038F0D5 /* JustShare */;
 			targetProxy = 7965FC11197AE1FA0038F0D5 /* PBXContainerItemProxy */;
+		};
+		796BAB96197AECF3007C4C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7965FBDF197AE19A0038F0D5 /* ShareExtensionPractice */;
+			targetProxy = 796BAB95197AECF3007C4C39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -549,6 +562,7 @@
 				7965FC14197AE1FA0038F0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
